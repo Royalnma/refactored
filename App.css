@@ -1,0 +1,114 @@
+
+.Head {
+ min-height: 10vh;
+ font-size: calc(10px + 2vmin);
+ border-style: solid;
+ border-color: white;
+ border-width: 4px;
+ padding-top: 4px;
+}
+.Header {
+ border-style: solid;
+ border-color: white;
+ border-width: 4px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ width: 500px;
+ display: flex;
+ flex-direction: rows;
+ justify-content: center;
+ align-items: left;
+ gap: 15px;
+ margin-left: 950px;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgb(17, 17, 230);
+  color: white;
+}
+.Middle {
+  border: 4px;
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  padding-top: 20px;
+}
+.text {
+  width: 450px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  border-style: solid;
+  border-color: white;
+}
+.hit {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 24px;
+  border-style: none;
+  background-color: white;
+}
+.type {
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+  height: 35px;
+  width: 500px;
+  border-radius: 10px;
+}
+.list {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: lighter;
+  display: flex;
+
+}
+.lang {
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 600px;
+  display: flex;
+ padding-left: 140px;
+}
+.lis {
+  text-decoration: none;
+  display: flex;
+  gap: 5px;
+}
+.Footer {
+  border-style: solid;
+  border: 2px;
+  border-color: black;
+  background-color: whitesmoke;
+  padding-top: 4px;
+
+}
+.foot {
+  display: flex;
+  gap: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+  padding-top: 20px;
+}
+.Count {
+  font-weight: lighter;
+  text-decoration-color: grey;
+}
+.right {
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 70px;
+}
+.center {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
