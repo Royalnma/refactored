@@ -3,7 +3,7 @@ import Sustainability from './Sustainability'
 
 export const Privacy = (props) => {
   return (
-    <div className='foot'>
+    <div>
         {props.title}
     </div>
   )

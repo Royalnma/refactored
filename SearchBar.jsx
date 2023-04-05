@@ -1,11 +1,22 @@
- import React from 'react'
+ import { useState } from 'react'
  
+
  export const SearchBar = () => {
-   return (
+
+  const [newTask, setNewTask] = useState("");
+      
+     const handleChange = (event) => {
+      const task = event.target.value
+      setNewTask(task)
+     }  
+      const handleClick = () => {
+        setNewTask("");
+      }
+    return (
     <>
      <div className='type'> 
-      <input className='text' type="text" />
-       <button className='hit'>X</button>
+      <input className='text' type="text"  value={newTask}  onChange={handleChange}/>
+       <button className='hit' onClick={handleClick}>X</button>
      </div>
      </>
    )

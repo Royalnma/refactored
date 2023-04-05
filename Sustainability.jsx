@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Sustainability = () => {
+export const Sustainability = (props) => {
   return (
-    <div> 
-        <a href=""> Carbon Neutral since 2007</a>
+    <div>
+    {props.title}
     </div>
   )
 }
